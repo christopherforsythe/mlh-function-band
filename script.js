@@ -1,3 +1,11 @@
+//when the page loads for 4 seconds, the spinner will hide and body will display
+window.onload = () => {
+  setTimeout(() => {
+    document.querySelector('body').classList.add
+    ('display');
+  }, 3500);
+}
+
 document.querySelector(".hamburger-menu").
 addEventListener('click', () => {
   document.querySelector(".container").classList.
