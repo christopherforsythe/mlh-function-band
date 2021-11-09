@@ -631,11 +631,11 @@ html {
 }
 
 .booking-section {
-    height: 90vh;
     width: 100%;
     overflow-x: hidden;
-    background-image: url("/media/background-test.jpg");
-    color: white;   
+    background-image: url("../media/background-test.jpg");
+    color: white;
+    padding-bottom: 5rem;   
 }
 
 
@@ -691,12 +691,19 @@ html {
 .party-steps {
     background-color: #CFC692;
     color: white;
+    padding-bottom: 3rem;
 }
 
 .party-cards-wrapper {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.card {
+    width: 38rem;
+    height: 32rem;
+    border-radius: 0.5rem;
 }
 
 .party-underline {
@@ -824,7 +831,6 @@ html {
 
 @media(max-width: 1300px) {
 
-   
 
     .card {
         width: 30rem;
@@ -873,7 +879,7 @@ html {
     }
    
     .party-steps {
-        height: 95vh;
+        height: 75vh;
     }
 
     .card-info h2{
@@ -905,9 +911,86 @@ html {
     .card {
         margin-bottom: 17rem;
     }
+
+    .booking-heading{
+        font-size: 4.5rem;
+    }
+
+    .booking-content {
+        font-size: 1.95rem;
+    }
+
+    .booking-wrapper button {
+        width: 14rem;
+        height: 5rem;
+    }
+
+    .card {
+        width: 30rem;
+    }
+
+    .card-info h2{
+        font-size: 2.95rem;
+    }
+
+    .card-info p {
+        font-size: 1.3rem;
+    }
+
+    .card-info button {
+        width: 11rem;
+        font-size: 1.3rem;
+    }   
+
+    .trio {
+        padding-bottom: 5rem;
+    }
 }
 
 @media(max-width: 700px) {
+
+    .header {
+        height: 80vh;
+    }
+
+    .menu {
+        top: 35%;
+    }
+
+    .party-steps {
+        height: 100vh;
+    }
+
+    .party-steps .section-header {
+        padding-bottom: 0;
+    }
+
+    .party-card .card-info {
+        padding: 0;
+    }
+
+    .party-icon {
+        font-size: 3rem;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .card-info h2 {
+        font-size: 2rem;
+    }
+
+    .booking-heading{
+        font-size: 3.25rem;
+    }
+
+    .booking-content {
+        font-size: 1.95rem;
+    }
+
+    .booking-wrapper button {
+        width: 14rem;
+        height: 5rem;
+    }
  
     .banner {
         width: 90%;
@@ -947,12 +1030,38 @@ html {
         line-height: 1;
     }
 
+    .card {
+
+        padding-bottom: 0;
+    }
+
 }
 
 @media(max-width: 500px) {
     
     html {
         font-size: 45%;
+    }
+
+    .banner {
+        width: 100%;
+        top: 20%;
+        left: 20%;
+    }
+
+    .banner h1 {
+        font-size: 7rem;
+        line-height: 7rem;
+    }
+
+    .banner p {
+        font-size: 2rem;
+    }
+
+    .banner button{
+        width: 17rem;
+        height: 6rem;
+        font-size: 2rem;
     }
 
     .sidebar {
@@ -963,6 +1072,23 @@ html {
     .change .hamburger-menu {
         right: 38rem;
     }
+
+    .card {
+        width: 35rem;
+    }
+
+    .card-info h2{
+        font-size: 2.75rem;
+    }
+
+    .card-info p {
+        font-size: 1.3rem;
+    }
+
+    .card-info button {
+        width: 11rem;
+        font-size: 1.3rem;
+    }   
 }
 
 
